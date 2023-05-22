@@ -1,0 +1,15 @@
+# ------------------- #
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=
+POSTGRES_DB=project
+# Set host to localhost if you want to connect to a local database
+POSTGRES_HOST=db
+
+# ------------------- #
+DJANGO_SECRET_KEY=
+DJANGO_DEBUG=True
+DJANGO_ALLOWED_HOSTS=*
+# Use project.core.settings if you want to run the server inside docker, otherwise use core.settings
+DJANGO_SETTINGS_MODULE=project.core.settings
+
+# ------------------- #
